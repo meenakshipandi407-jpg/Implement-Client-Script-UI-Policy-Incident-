@@ -1,0 +1,22 @@
+# Requirement Analysis - Implement Client Script & UI Policy for Incident
+
+## 1. Objective
+To improve Incident form behavior in ServiceNow using Client Scripts and UI Policies.
+
+## 2. Requirements
+- When Priority is 1, Impact field should be mandatory
+- When State is Resolved, Close notes should be mandatory
+- Hide/Show fields based on Category
+- Auto-populate Caller information
+
+## 3. Client Script Requirements
+- onLoad: Display alert for High priority incidents
+- onChange: Validate Short Description length
+- onSubmit: Prevent empty incident creation
+
+## 4. UI Policy Requirements
+- UI Policy 1: If Category = Software, show Software field
+- UI Policy 2: If Category = Hardware, make Hardware fields mandatory
+
+## 5. Expected Outcome
+Better user experience and data validation in Incident form
