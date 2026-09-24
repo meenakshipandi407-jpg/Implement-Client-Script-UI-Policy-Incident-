@@ -1,0 +1,16 @@
+# Implement Client Script and UI Policy
+
+## Project Description
+This project demonstrates the implementation of Client Scripts and UI Policies in ServiceNow.
+
+## Objective
+To customize form behavior and improve user interaction using Client Scripts and UI Policies.
+
+## Technologies Used
+- ServiceNow
+- Client Script
+- UI Policy
+- JavaScript
+
+## Conclusion
+This project helps in understanding how Client Scripts and UI Policies can be used to control and customize ServiceNow forms.
