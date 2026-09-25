@@ -1,0 +1,43 @@
+# Project Testing Phase - Implement Client Script & UI Policy for Incident
+
+## 1. Testing Objective
+To verify that Client Scripts and UI Policies work correctly on Incident form without conflicts.
+
+## 2. Test Cases
+
+### Test Case 1: onLoad Script
+- Action: Open an existing Incident with Priority = 1
+- Expected: Info message "This is a Critical Priority Incident!" should appear
+- Result: Pass
+
+### Test Case 2: onChange Script
+- Action: Enter Short Description less than 10 characters
+- Expected: Error message "Short description must be at least 10 characters"
+- Result: Pass
+
+### Test Case 3: onSubmit Script
+- Action: Try to submit Incident without Category
+- Expected: Form should not submit and show error "Category is mandatory"
+- Result: Pass
+
+### Test Case 4: UI Policy - Software Category
+- Action: Select Category = Software
+- Expected: Software field should become visible and mandatory
+- Result: Pass
+
+### Test Case 5: UI Policy - Hardware Category
+- Action: Select Category = Hardware
+- Expected: Hardware related fields should become visible
+- Result: Pass
+
+## 3. Bug Fixes
+- Fixed Client Script not triggering by checking Active checkbox
+- Fixed UI Policy not working by setting correct reverse conditions
+
+## 4. Final Validation
+- All Client Scripts working as expected
+- All UI Policies working without conflict
+- No console errors
+
+## 5. Conclusion
+Testing completed successfully. Implementation is ready for final submission.
