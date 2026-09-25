@@ -1,0 +1,42 @@
+# Project Design Phase
+
+## Project Title
+Implement Client Script and UI Policy – Incident
+
+## Project Objective
+The objective of this project is to implement Client Scripts and UI Policies in ServiceNow Incident Management to improve form behavior, validation, and user experience.
+
+## Project Design
+
+### 1. Client Script
+A Client Script will be used to control the Incident form dynamically on the client side.
+
+Functions:
+- Validate user-entered data.
+- Automatically populate required fields.
+- Display messages when incorrect data is entered.
+- Change field values based on user actions.
+
+### 2. UI Policy
+A UI Policy will be used to dynamically control the Incident form fields.
+
+Functions:
+- Make fields mandatory when required.
+- Make fields visible or hidden based on conditions.
+- Make fields read-only when necessary.
+
+### 3. Incident Form
+The project will be implemented on the ServiceNow Incident form using appropriate conditions and actions.
+
+## Expected Outcome
+The Incident form should respond dynamically to user actions. Client Scripts will handle client-side logic, while UI Policies will control field visibility, mandatory status, and read-only behavior.
+
+## Tools and Technologies
+- ServiceNow
+- Client Scripts
+- UI Policies
+- Incident Management
+- JavaScript
+
+## Conclusion
+This project demonstrates how Client Scripts and UI Policies can be implemented in ServiceNow to create a more efficient, user-friendly, and controlled Incident Management form.
