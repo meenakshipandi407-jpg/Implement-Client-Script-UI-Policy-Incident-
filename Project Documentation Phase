@@ -1,0 +1,40 @@
+# Project Documentation Phase - Implement Client Script & UI Policy for Incident
+
+## 1. Project Overview
+This project implements Client Scripts and UI Policies in ServiceNow to enhance Incident form functionality, improve user experience, and ensure data quality.
+
+## 2. Tools & Technologies Used
+- ServiceNow PDI (Rome/Utah version)
+- Incident Table
+- Client Scripts (onLoad, onChange, onSubmit)
+- UI Policy & UI Policy Actions
+- GitHub for Documentation
+
+## 3. Implementation Summary
+- Created 3 Client Scripts for validation and alerts
+- Created 2 UI Policies for dynamic field visibility
+- Configured conditions based on Category and Priority fields
+- Tested in multiple scenarios
+
+## 4. Key Learnings
+- Understood difference between Client Script and UI Policy
+- Learned g_form API methods: getValue(), setMandatory(), setVisible(), addInfoMessage()
+- Learned execution order and best practices
+
+## 5. Screenshots / Evidence
+- Client Script configuration screenshots
+- UI Policy configuration screenshots
+- Incident form before and after implementation
+
+## 6. Final Deliverables
+- All required files documented in GitHub
+- ServiceNow PDI with working Client Scripts and UI Policies
+- Project Report ready for submission
+
+## 7. Conclusion
+Successfully implemented Client Script and UI Policy for Incident table. This improves form behavior and ensures mandatory data entry for critical incidents.
+
+## 8. Future Enhancement
+- Can add more complex GlideAjax based Client Scripts
+- Can implement UI Scripts for reusable functions
+- Can extend to Change and Problem tables
