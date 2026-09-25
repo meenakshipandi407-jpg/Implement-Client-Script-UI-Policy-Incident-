@@ -1,0 +1,37 @@
+# Project Demonstration Phase - Implement Client Script & UI Policy for Incident
+
+## 1. Demo Video Link
+- Loom / Drive link: [Insert your screen recording link here]
+- GitHub Repo: https://github.com/meenakshipandi407-jpg/Implement-Client-Script-UI-Policy-Incident-
+
+## 2. Demonstration Steps
+
+### Step 1: Open Incident Form
+- Navigate to Incident > Create New
+- Show empty form
+
+### Step 2: Demonstrate onLoad Client Script
+- Open existing P1 Incident
+- Show Info Message alert appears
+
+### Step 3: Demonstrate onChange Client Script
+- Type Short Description with <10 characters
+- Show validation error
+
+### Step 4: Demonstrate onSubmit Client Script
+- Leave Category empty and click Submit
+- Show error and form not submitted
+
+### Step 5: Demonstrate UI Policy
+- Select Category = Software
+- Show Software field becomes visible & mandatory
+- Select Category = Hardware
+- Show Hardware fields visible
+
+## 3. Expected Output
+- Client Scripts prevent invalid data entry
+- UI Policies dynamically control field visibility
+- Better user experience
+
+## 4. Conclusion
+Successfully demonstrated Client Script and UI Policy implementation for Incident module. All features working as per requirements.
