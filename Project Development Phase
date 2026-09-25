@@ -1,0 +1,47 @@
+# Project Development Phase - Implement Client Script & UI Policy for Incident
+
+## 1. Development Environment
+- ServiceNow PDI
+- Incident Table: incident
+- VS Code for script testing
+
+## 2. Client Script Implementation
+
+### a) onLoad Client Script
+- Name: Show Alert for High Priority
+- Table: Incident
+- Type: onLoad
+- Script:
+  if (g_form.getValue('priority') == '1') {
+    g_form.addInfoMessage('This is a Critical Priority Incident!');
+  }
+
+### b) onChange Client Script
+- Name: Validate Short Description
+- Field: short_description
+- Script: Checks length < 10 chars and shows error
+
+### c) onSubmit Client Script
+- Name: Prevent Empty Category
+- Script: Prevents submit if category is empty
+
+## 3. UI Policy Implementation
+
+### UI Policy 1: Show Software Field
+- Table: Incident
+- Condition: Category == Software
+- Action: Make u_software_field visible and mandatory
+
+### UI Policy 2: Show Hardware Field
+- Table: Incident
+- Condition: Category == Hardware
+- Action: Make hardware fields visible
+
+## 4. Testing
+- Tested onLoad alert for P1 incidents - Working
+- Tested onChange validation - Working
+- Tested UI Policy hide/show - Working
+
+## 5. Challenges Faced
+- Client Script execution order issue - Fixed by setting Order to 100
+- UI Policy conflict - Fixed by unchecking Global
